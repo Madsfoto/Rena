@@ -11,14 +11,12 @@ namespace Ren
 
 class Program
     {
-        public string newname(string currentStartNumber)
+        public string newname(string paddedInt)
         {
-            // This function is moddelled from setConsoleString, same functionality. 
-            // the output filename is "average(currentStartNumber).jpg, where (currentStartNumber) is a 6 digit number.
-            string outputString = String.Concat(currentStartNumber, ".jpg");
+            // 
+            string outputString = String.Concat(paddedInt, ".jpg");
 
             return outputString;
-            // tested 8 may 2017: Works
         }
 
         static void Main(string[] args)
